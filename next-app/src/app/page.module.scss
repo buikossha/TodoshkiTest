@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+
+  .title {
+    color: rgb(88, 88, 88);
+    text-transform: uppercase;
+    font-size: 28px;
+  }
+
+  .todos__wrapper {
+    width: 100%;
+    max-width: 480px;
+  }
+
+  .search__input {
+    width: 480px;
+    height: 38px;
+    padding: 0 15px;
+    border-radius: 6px;
+    border: 1px solid rgb(88, 88, 88);
+    margin-bottom: 32px;
+
+    &::placeholder {
+      color: rgb(88, 88, 88);
+    }
+  }
+}

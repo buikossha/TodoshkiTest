@@ -1,0 +1,38 @@
+.form {
+  width: 100%;
+  max-width: 480px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 22px;
+
+  .form__input {
+    width: 320px;
+    height: 38px;
+    padding: 0 15px;
+    border-radius: 6px;
+    border: 1px solid rgb(88, 88, 88);
+
+    &::placeholder {
+      color: rgb(88, 88, 88);
+    }
+  }
+
+  .form__button {
+    height: 38px;
+    width: 120px;
+    background: transparent;
+    border: 1px solid rgb(88, 88, 88);
+    color: rgb(88, 88, 88);
+    border-radius: 6px;
+    text-transform: uppercase;
+    transition: 0.4s ease;
+
+    &:hover {
+      cursor: pointer;
+      background-color: rgb(88, 88, 88);
+      color: white;
+      transition: 0.4s ease;
+    }
+  }
+}
