@@ -44,7 +44,6 @@ function Todos() {
   }
 
   const changeTodoStatus = (id, status) => {
-    console.log(status);
     fetch(`http://localhost:3001/tasks/${id}`, {
       method: 'PATCH',
       headers: {
